@@ -1,0 +1,14 @@
+User-agent: *
+
+Allow: /
+
+# Block unnecessary folders
+Disallow: /.git/
+Disallow: /.github/
+Disallow: /node_modules/
+Disallow: /README.md
+
+# Sitemap
+Sitemap: https://naren.website/sitemap.xml
+
+Host: https://naren.website
